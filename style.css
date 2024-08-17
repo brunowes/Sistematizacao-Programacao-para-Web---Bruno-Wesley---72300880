@@ -119,7 +119,7 @@
     background: rgb(208,28,100);
     background: linear-gradient(180deg, rgba(208,28,100,1) 0%, rgba(220,84,75,1) 100%); 
     color: #ffffff;
-    width: 20rem;
+    width: 15rem;
     padding: 25px;
     display: flex;
     flex-direction: column;
@@ -128,14 +128,14 @@
 }
 
 .card__retrato {
-    width: 300px;
+    width: 250px;
     margin-bottom: 25px;
     border-radius: 10px;
 }
 
 .card__equipe__nome {
     padding-bottom: 15px;
-    font-size: 18pt;
+    font-size: 16pt;
     font-weight: bold;
 }
 
