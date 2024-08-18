@@ -4,10 +4,14 @@
 }
 
 .cabecalho {
-    background: rgb(247,203,21,1);
-    background: linear-gradient(90deg, rgba(247,203,21,1) 0%, rgba(208,28,100,1) 100%); 
+    background: rgb(247, 203, 21, 1);
+    background: linear-gradient(
+        90deg,
+        rgba(247, 203, 21, 1) 0%,
+        rgba(208, 28, 100, 1) 100%
+    );
     background-color: #d01c64;
-    padding: 1rem 15%;
+    padding: 1rem 20%;
     align-items: center;
     border-bottom: 2px solid #ffffff;
 }
@@ -35,10 +39,14 @@
 }
 
 .banner__principal {
-    padding: 5rem 15%;
+    padding: 5rem 20%;
     /* background-color: #D01C64; */
-    background: rgb(208,28,100);
-    background: linear-gradient(90deg, rgba(208,28,100,1) 0%, rgba(247,203,21,1) 100%); 
+    background: rgb(208, 28, 100);
+    background: linear-gradient(
+        90deg,
+        rgba(208, 28, 100, 1) 0%,
+        rgba(247, 203, 21, 1) 100%
+    );
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -75,7 +83,7 @@
 }
 
 .banner__secundario {
-    padding: 4rem 15%;
+    padding: 4rem 20%;
     /* background-color: #D01C64; */
     display: flex;
     align-items: center;
@@ -90,13 +98,13 @@
 .banner__secundario__textos {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    width: 35%
+    width: 40%;
 }
 
 .sobre-nos {
     padding: 3rem 0;
     text-align: center;
-    background-color: #F7F7FF;
+    background-color: #f7f7ff;
 }
 
 .secao__titulo {
@@ -109,15 +117,19 @@
 .cards {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 15%;
+    padding: 0 20%;
     justify-content: space-between;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .card__equipe {
     /* background-color: #d01c64; */
-    background: rgb(208,28,100);
-    background: linear-gradient(180deg, rgba(208,28,100,1) 0%, rgba(220,84,75,1) 100%); 
+    background: rgb(208, 28, 100);
+    background: linear-gradient(
+        180deg,
+        rgba(208, 28, 100, 1) 0%,
+        rgba(220, 84, 75, 1) 100%
+    );
     color: #ffffff;
     width: 15rem;
     padding: 25px;
@@ -145,7 +157,7 @@
 }
 
 .saiba-mais {
-    padding: 3rem 15%;
+    padding: 3rem 20%;
     text-align: center;
 }
 
@@ -188,12 +200,16 @@
 .formulario {
     margin-top: 50px;
     text-align: center;
-    padding: 30px;
+    padding: 50px;
     align-self: center;
     align-items: center;
     /* background-color: #d01c64; */
-    background: rgb(208,28,100);
-    background: linear-gradient(180deg, rgba(208,28,100,1) 0%, rgba(220,84,75,1) 100%); 
+    background: rgb(208, 28, 100);
+    background: linear-gradient(
+        180deg,
+        rgba(208, 28, 100, 1) 0%,
+        rgba(220, 84, 75, 1) 100%
+    );
     color: white;
     border-radius: 15px;
 }
@@ -209,29 +225,27 @@
     height: 25px;
 }
 
-.formulario__campo__input2 {
-    width: 70%;
-    margin-top: 5px;
-    height: 60px;
-}
-
 .formulario__botao {
     padding: 10px;
-    width: 150px;
+    width: 170px;
     background-color: #f7cb15;
     border: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     border-radius: 10px;
     font-weight: bold;
+    margin-top: 1.5rem;
 }
 
-
 .rodape {
-    background: rgb(247,203,21,1);
-    background: linear-gradient(90deg, rgba(247,203,21,1) 0%, rgba(208,28,100,1) 100%); 
+    background: rgb(247, 203, 21, 1);
+    background: linear-gradient(
+        90deg,
+        rgba(247, 203, 21, 1) 0%,
+        rgba(208, 28, 100, 1) 100%
+    );
     background-color: #d01c64;
-    padding: 1rem 15%;
+    padding: 1rem 20%;
     height: 5rem;
 }
 
